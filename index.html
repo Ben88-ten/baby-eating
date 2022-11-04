@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mahlzeiten LUCA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type ="text/css" href = "./mahlzeit.css"/>
+</head>
+<body>
+
+<h2>Mahlzeiten LUCA</h2>
+
+<form action="mahlzeit.php" method="post">
+
+    <p><input type="date" name="datum" required /> Datum</p>
+
+    <p><input type="time" name="uhr" required /> Uhrzeit</p>
+    <p><input type="text" name="menge" required /> Menge</p>
+
+
+    <p><input type="submit" value="senden" />
+        <input type="reset" value="löschen" /></p>
+</form>
+
+    <form action="tagesrechner.php" method="POST">
+
+        <h3>Mahlzeiten/Tag</h3>
+
+        <p>Bitte geb ein Datum ein:</p>
+
+        <p><input type="date" name="datum" /> Datum</p>
+        <p><input type="submit" value="senden" />
+
+
+
+
+
+</form>
+
+</body>
+</html>
